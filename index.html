@@ -86,7 +86,7 @@
                 <a href="#"><i class="bi bi-cart3 cart"></i></a>
             </div>
 
-            <div class="pro">
+            <div class="pro" onclick="openPopup('./images/products/f2.jpg', 'TeamSprit', 'Cartoon Astronaut Shirt', '₹840')">
                 <img src="./images/products/f2.jpg" alt="Shirt image">
                 <div class="des">
                     <span>TeamSprit</span>
@@ -103,7 +103,7 @@
                 <a href="#"><i class="bi bi-cart3 cart"></i></a>
             </div>
 
-            <div class="pro">
+            <div class="pro" onclick="openPopup('./images/products/f3.jpg', 'Skype', 'Cartoon Astronaut Shirt', '₹799')">
                 <img src="./images/products/f3.jpg" alt="Shirt image">
                 <div class="des">
                     <span>Skype</span>
@@ -120,7 +120,7 @@
                 <a href="#"><i class="bi bi-cart3 cart"></i></a>
             </div>
 
-            <div class="pro">
+            <div class="pro" onclick="openPopup('./images/products/f4.jpg', 'H&M', 'Cartoon Astronaut Shirt', '₹650')">
                 <img src="./images/products/f4.jpg" alt="Shirt image">
                 <div class="des">
                     <span>H&M</span>
@@ -155,13 +155,12 @@
             </div>
 
             <div id="popup" class="popup">
-                <div class="popup-content">
+                <div class="popup-content pro">
                     <span class="close-btn" onclick="closePopup()">&times;</span>
                     <img id="popup-image" src="" alt="Product Image">
                     <div class="des">
                         <span id="popup-brand"></span>
                         <h5 id="popup-title"></h5>
-                        <h4 id="popup-price"></h4>
                         <div class="star">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -169,12 +168,14 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </div>
+                        <h4 id="popup-price"></h4>
                     </div>
+                    <a href="#"><i class="bi bi-cart3 cart"></i></a>
                     <!-- Add any other details you want to display in the popup -->
                 </div>
             </div>
 
-            <div class="pro" onclick="openPopup('./images/products/f6.jpg', 'Roadster', 'Cartoon Astronaut Shirt', '₹999')">
+            <div class="pro">
                 <img src="./images/products/f6.jpg" alt="Shirt image">
                 <div class="des">
                     <span>Roadster</span>
